@@ -1,4 +1,4 @@
-# Getting_and_Cleaning_Data-Course_Project
+# Getting and Cleaning Data - Course Project
 This is the course project for the Getting and Cleaning Data in the Coursera Data Science Specialization
 
 ## Introduction
@@ -18,3 +18,13 @@ This repository will contain the following items:
 3) A code book that describes the variables, the data, and any transformations or work that were performed to clean up the data
 
 ## Description
+We now give brief description into the files that we have in our repository.
+
+### run_analysis.R
+This R script contains the code used to generate a tidy data set. To re-iterate it does the following:
+* Merge the training and the test sets to create one data set
+* Extract only the measurements on the mean and standard deviation for each measurement
+* Use descriptive activity names to name the activities in the data set
+* Appropriately label the data set with descriptive variable names
+* From the data set produced in the previous step, create a second, independent tidy data set with the average of each variable for each  activity and each subject
+
